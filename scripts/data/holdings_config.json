@@ -1,0 +1,28 @@
+{
+  "note": "⚠️ 示例数据（template）。请替换为你自己的持仓后再运行 gen_dashboard.py / r2_calc.py。本文件为持仓 canonical 单一真源。",
+  "updated": "YYYY-MM-DD",
+  "positions": [
+    {
+      "code": "000999",
+      "name": "示例科技股",
+      "qty": 100,
+      "cost": 10.0,
+      "mkt": "A",
+      "strat": "示例策略",
+      "plan": "示例交易计划（替换为你自己的）"
+    },
+    {
+      "code": "09999",
+      "name": "示例港股甲",
+      "qty": 200,
+      "cost": 35.0,
+      "mkt": "HK",
+      "strat": "港股死拿（示例）",
+      "plan": "事件/基本面止损（示例）"
+    }
+  ],
+  "closed": [],
+  "extreme_lines": {},
+  "hk_review25_mult": 0.75,
+  "total_invested": 0
+}
